@@ -9,8 +9,8 @@ from config import Config
 
 
 # TODO Change to Dataset API
-sketchy_dir = './training_data/sketchy'
-flickr_dir = './training_data/flickr_output'
+sketchy_dir = './tfrecords/sketchy'
+flickr_dir = './tfrecords/flickr_output'
 
 
 paired_filenames_1 = [os.path.join(sketchy_dir, f) for f in os.listdir(sketchy_dir)
