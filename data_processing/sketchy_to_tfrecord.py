@@ -34,9 +34,9 @@ def _int64_feature(value):
 
 
 classes_info = '../data_processing/classes.csv'
-photo_folder = '../Datasets/Sketchy/rendered_256x256/256x256/photo/tx_000000000000'
-sketch_folder = '../Datasets/Sketchy/rendered_256x256/256x256/sketch/tx_000000000000'
-info_dir = '../Datasets/Sketchy/info'
+photo_folder = '../training_data/sketchy/256x256/photo/tx_000000000000'
+sketch_folder = '../training_data/sketchy/256x256/sketch/tx_000000000000'
+info_dir = '../training_data/sketchy/info'
 data_dir = '../tfrecords/sketchy'
 
 config = tf.ConfigProto(allow_soft_placement=True, log_device_placement=False,
