@@ -155,7 +155,7 @@ if __name__ == "__main__":
     parser.add_argument('--optimizer', type=str, default="Adam", help="Optimizer for the graph")
     parser.add_argument('--lr_G', type=float, default=2e-4, help="learning rate for the generator")
     parser.add_argument('--lr_D', type=float, default=4e-4, help="learning rate for the discriminator")
-    parser.add_argument('--num_gpu', default=2, type=int, help="Number of GPUs to use")
+    parser.add_argument('--num_gpu', default=1, type=int, help="Number of GPUs to use")
     parser.add_argument('--distance_map', default=1, type=int, help="Whether using distance maps for sketches")
     parser.add_argument('--small_img', default=1, type=int, help="Whether using 64x64 instead of 256x256")
     parser.add_argument('--extra_info', default="", type=str, help="Extra information saved for record")
